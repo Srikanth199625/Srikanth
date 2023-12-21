@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Loan Department">
+  <test thread-count="5" name="Personal loan">
+    <classes>
+      <class name="test.Day1"/>
+      <class name="test.Day2"/>
+      <class name="test.Day4"/>
+    </classes>
+  </test>
+  <test name ="car loan">
+	  <classes>
+		  <class name= "test.Day3">
+			  <methods>
+				  <exclude name ="Mobilelogincar"/>
+			  </methods>
+		  </class>
+	  </classes>  
+  </test> 
+</suite> 

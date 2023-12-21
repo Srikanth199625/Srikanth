@@ -1,0 +1,20 @@
+package fi;
+
+public class basic {
+	int a=10;
+	String s= "Srikanth";
+	double d=23.1;
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		basic obj=new basic();
+		System.out.println(obj.a);
+		System.out.println(obj.s);
+		System.out.println(obj.d);
+
+		
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package fi;
+
+public class Ifpractise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="Srikanth";
+		System.out.println(s.charAt(5));
+		System.out.println();
+
+	}
+
+}
